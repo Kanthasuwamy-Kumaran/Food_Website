@@ -362,6 +362,9 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
+.menu__card-bottom .ratings{
+  margin-bottom: 10px;
+}

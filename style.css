@@ -286,5 +286,82 @@ section{
   transform: translateY(-1rem);
 }
 
+/* ==============about us section============= */
+.about__wrapper{
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
 
+.about__img, .about__content{
+  width: 50%;
+}
+
+.about__img img{
+  width: 100%;
+
+}
+
+.about__content h3{
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.learn__more{
+  margin-top: 40px;
+  padding: 10px 35px;
+  font-size: 1rem;
+  background: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ 
+  
+  
+}
+
+.learn__more a{
+  color: var(--secondary-color); 
+  font-weight: 600;
+}
+
+/* ===============menu section=============== */
+.menu__section-top{
+  margin-bottom: 50px;
+}
+
+.menu__section-top h2{
+  font-size: 2rem;
+}
+
+.menu__wrapper{
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.menu__item{
+  width: 33%;
+  padding: 20px;
+  background: var(--card-bg);
+  border-radius: 5px;
+}
+
+.menu__img img{
+  width: 100%;
+}
+
+.menu__item h3{
+  font-size: 1.3rem;
+}
+
+.menu__card-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 
